@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  height: 850px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* background-image: url("./images/gradient-bg.jpg"); */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.welcomePage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+a {
+  margin-top: 20px;
+  display: flex;
+}
+
+a:link,
+a:visited,
+.adminSubmit {
+  color: white;
+  background-color: #f44336;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover,
+.adminSubmit:hover {
+  background-color: blue;
+}
+
+.brianTopDiv h1,
+h5 {
+  display: flex;
+  justify-content: center;
+  color: orangered;
+}
+
+p {
+  color: blue;
+  padding: 1px;
+  margin-bottom: 5px;
+}
+
+.addCommentButton {
+  margin-left: 10px;
+}
+
+.adminSubmit {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.brianMidDiv {
+  display: flex;
+  padding: 20px;
+}
+
+.brianLowDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+button {
+  padding: 5px;
+  color: blue;
+  background-color: lightblue;
+  border-radius: 10px;
+}
+
+.commentSection {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dansPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  /* margin-bottom: 40px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+footer button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  transition: 0.5s ease;
+}
+
+img:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+
+p label {
+  padding: 5px;
+}
+
+.spanRed {
+  color: red;
+  background-color: lightsteelblue;
+  padding: 2px 14px 2px 14px;
+}
+
+.spanBlue {
+  color: blue;
+  background-color: lightpink;
+  padding: 2px 14px 2px 14px;
+}
+
+.spanWhite {
+  color: white;
+  background-color: lightgreen;
+  padding: 2px 14px 2px 14px;
+}
+
+.welcomePics {
+  display: flex;
+  padding: 10px;
+}
+
+.logo {
+  animation: rotation 6s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotateY(359deg);
+  }
+  to {
+    transform: rotateY(0deg);
+  }
+}
